@@ -8,9 +8,9 @@
 **Info:** *30years* old lawer, making dream to be a judge come true
 
 **Languages:** all basic:
-                        - HTML
-                        - Java 
-                        - python
+                        * HTML
+                        * Java 
+                        * python
 
 
 **Code:** 

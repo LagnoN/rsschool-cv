@@ -40,9 +40,11 @@ h2 {
     padding: 10px;
     margin: 0px;
     display: flex;
-    border: darkslategray;
     height: 15vh;
-}
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
 
 ul {
     background-color: rgb(61, 61, 61);

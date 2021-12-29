@@ -5,58 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>About me</title>
+    <link rel="shortcut icon" href="./assets/Photo.ico" type="image/x-icon">
+    <title>CV</title>
 </head>
 <body>
-    <nav>
-        <ul class="nav-ul">
-            <li class="nav-li">Main</li>
-            <li class="nav-li">Projects</li>
-            <li class="nav-li">Contacts</li>
-        </ul>
-    </nav>
-    <header class="header">
-        <h1>About me</h1>
-        <img src="./assets/Photo.jpg" alt="My Photo" width="200vw" height="120hv">
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#Name" class="nav-link">Name</a></li>
+                  <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#Info" class="nav-link">Info</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                  <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#Exp in coding" class="nav-link">Exp in coding</a></li>
+                  <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
     </header>
-    <main class="main">
-        <div><p style="font-weight: bold;">Name: </p> <p>Nikolay Lagno</p></div>
-        <div><p style="font-weight: bold;">Info:</p> <span > <i>30 years old </i> lawer, making dream to be a judge come true </span></div>
-        <div><p style="font-weight: bold;">Languages:</p> all basic
-            <ul>
-                <li>HTML</li>
-                <li>Java </li>
-                <li>python</li>
-            </ul>
+    <main>
+        <div class="main-container">
+            <section class="section" id="Name"> 
+                <h1 class="section-title">Lagno Nikolay</h1>
+                <img src="./assets/Photo.jpg" alt="Photo" style="width: inherit;">
+            </section>
+            <section class="section" id="Contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p>lagnonikolay@gmail.com</p>
+            </section>
+            <section class="section" id="Info"> 
+                <h2 class="section-title">Info</h2> 
+                <span> <i>30years old </i> lawer, making dream to be a judge come true</span>
+            </section>
+            <section class="section" id="skills"> 
+                <h2 class="section-title">Skills</h2>
+                <ul style="padding: 0;">All basic:
+                    <li style="list-style: none; padding: 0px 0px 0px 70px;">HTML</li>
+                    <li style="list-style: none; padding: 0px 0px 0px 70px;">Java</li>
+                    <li style="list-style: none; padding: 0px 0px 0px 70px;">Python</li>
+                </ul>
+            </section>
+            <section class="section" id="Code"> 
+                <h2 class="section-title">Code</h2>
+                <pre>
+function main () {
+    var deprth = parseInt(readLine), 10);
+    var i = 0;
+    var h = 0;
+    do {
+        h += 7;
+            if (h >= depth) {
+            i++;
+            break;}
+        h -= 2;
+        i++;
+    }
+    while (h < depth);
+    console.log(i);
+}</pre>
+            </section>
+            <section class="section" id="Exp in coding"> 
+                <h2 class="section-title">Exp in coding</h2>
+                <p>nothing</p>
+            </section>
+            <section class="section" id="Education"> 
+                <h2 class="section-title">Education</h2>
+                <p>UdSU - jurisprudence</p>
+            </section>
+            <section class="section" id="English"> 
+                <h2 class="section-title">English</h2>
+                <p>Intermediate</p>
+            </section>
         </div>
-        <div>
-            <p style="font-weight: bold;">Code: </p> 
-            <pre>function main () {
-                var deprth = parseInt(readLine), 10);
-                var i = 0;
-                var h = 0;
-                do {
-                    h += 7;
-                    if (h >= depth) {
-                        i++;
-                        break;}
-                    h -= 2;
-                    i++;
-                }
-                while (h < depth);
-                console.log(i);
-            }
-        </pre>
-        </div>
-        <div><p style="font-weight: bold;">Exp in coding:</p> <span> nothing </span></div>
-        <div><p style="font-weight: bold;">Education:</p> <span> UdSU - jurisprudence </span></div>
-        <div><p style="font-weight: bold;">English:</p> <span> Intermediate </span></div>
     </main>
-    <footer class="footer">
-        <h2> Contacts </h2>
-        <span style="color: rgb(0, 38, 255);"> lagnonikolay@gmail.com </span>
-        <span>2021</span>
-        <img src="./assets/rs_school_js.svg" alt="scjool-logo" width="200px" height="600px" style="align-self: flex-end;">
+    <footer>
+        <p class="footer-section" style="margin: 0;">&#169 2021</p>
+        <a href="https://github.com/LagnoN" class="footer-section">LagnoN</a>
+        <img src="./assets/rs_school_js.svg" alt="school-logo" class="footer-section" style="width: 100px;">        
     </footer>
 </body>
 </html>

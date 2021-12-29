@@ -1,2 +1,3 @@
 # rsschool-cv
-https://github.com/LagnoN/rsschool-cv/cv.md
+https://lagnon.github.io/rsschool-cv/cv
+https://lagnon.github.io/rsschool-cv/

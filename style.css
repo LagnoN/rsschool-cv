@@ -25,15 +25,13 @@ h2 {
 .main {
     background-color: rgb(224, 221, 221);
     padding: 10px;
-    margin: 0px;
-    display: flex;
     border: rgb(60, 102, 102);
     height: 70vh;
+    font-size: large;
+    display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    align-items:flex-end;
-    align-content: flex-end;
-}
+    justify-content: space-between;
+    }
 
 .footer {
     background-color: darkgrey;
@@ -46,7 +44,7 @@ h2 {
     flex-wrap: wrap;
     }
 
-ul {
+.nav-ul {
     background-color: rgb(61, 61, 61);
     color: aliceblue;
     margin: 0;
@@ -57,10 +55,19 @@ ul {
     padding: 5px;
     }
 
-li {
+.nav-li {
     display: inline;
     list-style-type: none;
     padding: 5px;
     border-right: 2px white solid;
     text-align: center;
+}
+
+div {
+    border: 2px solid gray;
+    background-color: aliceblue;
+    justify-content: space-around;
+    margin: 2px;
+    padding: 10px;
+    flex-grow: 1;
 }
